@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>	
+
+		<div class="col-sm-12" style="border:solid;">
+			<button id="button">Press to Run!</button>
+		</div>
+</head>
+  <div style="position: relative;">
+  	<img src="https://cdn.pixabay.com/photo/2014/04/02/10/24/turtle-303732_960_720.png" class="img tortoise" style="position:absolute; top:50px; left: 40px; z-index: -20; height: 50px">
+  	<img src="https://previews.123rf.com/images/barbulat/barbulat1108/barbulat110800126/10304202-Hare-running-on-white-Stock-Vector-hare-rabbit-cartoon.jpg" class="img hare" style="position:absolute; top:150px; left: 40px; z-index: -20; height: 50px">
+ <div class="col-md-4 col-md-offset-8" style="border:solid;">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRBz0kyMb1lHjc3ENeTuKLo3HDL6zDX9qQ2YkCXX5fOAk-pADXuw" style="height:600px;">
+<div>
+	<script>
+	var numbers = ["1","1","2"];
+
+    $('#button').click(function(){
+    	var randnumber = numbers[Math.floor(Math.random() * numbers.length)];
+    	//alert(randnumber);
+    	if (randnumber === "1") {
+    		$('.tortoise').animate({left: "+=15px"});
+    	}
+    	else if(randnumber === "2") {
+    		$('.hare').animate({left: "+=30px"});
+    	}
+    	else (false);
+    	});
+    	
+        //var my_text=prompt('Enter text here');
+        //if(my_text) alert(my_text); // for example I've made an alert
+        if($('.tortoise')position ===)
+   
+    
+
+
+	</script>
+
+<body>
+
+</body>
+</html>
